@@ -3293,6 +3293,8 @@ h3 {
   float: left;
   width: 82px;
   height: 82px;
+  max-width:82px;
+  min-height:82px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
