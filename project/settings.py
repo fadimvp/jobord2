@@ -24,7 +24,7 @@ SECRET_KEY = '_ok(aspq07d(72pfb9rn^xsqc(&s#d(w&r=gn$qmo!3l)y@h3c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['obord2.herokuapp.com/','0.0.0.0:5000/']
+ALLOWED_HOSTS = ['https://jobord2.herokuapp.com/','0.0.0.0:5000']
 
 # Application definition
 
