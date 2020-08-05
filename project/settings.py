@@ -54,6 +54,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhitNoisModdleware',
 ]
 
 ROOT_URLCONF = 'project.urls'
@@ -82,10 +83,13 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME':'df80lira75li33',
+        'HOST':'ec2-184-73-249-9.compute-1.amazonaws.com',
+        'PORT':5432,
+        'USER':'avqvjtvyaawpuc',
+        'PASSWORD':'79ad12f34961beb4ad0945020f4bd7b7c4de41f345bce26ad81d4be0d8a105f2',
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
 
